@@ -1,0 +1,15 @@
+# Python / Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Terraform secrets and state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Environment variables & AWS credentials
+.env
+*.pem
